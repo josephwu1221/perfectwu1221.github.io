@@ -13,6 +13,20 @@
     
     <item>
       <title>第二篇博客</title>
+      <link>https://perfectwu1221.github.io/./posts/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 01 Jul 2020 07:35:49 +0800</pubDate>
+      
+      <guid>https://perfectwu1221.github.io/./posts/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>步骤1：安装 安装HUGO 下载windows-64bit.zip的版本 解压后把hugo.exe放到【自己设置的常用位置】如D:\software\hugo,把路径加到PATH中。 重启终端，试试成功没，运行hugo version，查看版本。
+步骤2：创建一个新站 找个空目录打开终端，hugo new site perfectwu1221.github.io-creater，创建
+步骤3：加个皮肤主题 cd quickstartgit initgit submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke步骤4：加点内容 **在 xxx.github.io-creator 目录（注意确保自己不在 public 目录）**里运行hugo new posts/文章名字.md 执行命令code posts/文章名字.md 对文件进行编辑。
+---title: &amp;quot;My First Post&amp;quot;date: 2019-03-26T08:47:11+01:00draft: true //这里改成false才能发表，draft是草稿的意思，true就是不发表---步骤5：开始Hugo server hugo server -D,第一次运行，会添加public目录，下次有新文章更新，得先hugo -D更新public目录再去目录里git add . ; git commit -m 更新描述 ; git push -f
+步骤6：配置博客 打开config.toml编辑
+baseURL = &amp;quot;https://example.org/&amp;quot;languageCode = &amp;quot;en-us&amp;quot;title = &amp;quot;My New Hugo Site&amp;quot;theme = &amp;quot;ananke&amp;quot;改动一下</description>
+    </item>
+    
+    <item>
+      <title>第二篇博客</title>
       <link>https://perfectwu1221.github.io/./posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 01 Jul 2020 07:35:49 +0800</pubDate>
       
